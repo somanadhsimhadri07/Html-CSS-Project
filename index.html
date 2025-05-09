@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mobile Purchase Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- Header section -->
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img src="Logo.png" alt="Company Logo" id="header-img"/></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#more-products" class="nav-link">MORE PRODUCTS</a>
+          <a href="#our-services" class="nav-link">COMMUNITY</a>
+          <a href="#contact" class="nav-link">CONTACT US</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <!-- Main section -->
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="Cover Photo.webp" alt="Cover Image " />
+        </div>
+        <div class="eye-grabber">
+          <h1>Powerful, Sleek, Innovative.</h1>
+          <h2>
+            OnePlus mobiles are known for their powerful performance, sleek design, and fast charging. 
+            They blend flagship features with competitive pricing, appealing to both tech enthusiasts
+            and everyday users.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Contact US
+          </button>
+        </div>
+      </section>
+
+
+      <!-- About section -->
+
+      <section id="about" class="section-heading">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            OnePlus has evolved from a disruptive startup in 2014 with its "flagship killer" OnePlus One into a major global smartphone brand. Known for offering top-tier specs at competitive prices, it steadily moved into the premium segment with innovations like fast charging, high-refresh-rate displays, and partnerships with brands like Hasselblad. 
+            Its newer models, like the OnePlus 13, focus on AI enhancements and premium design, though rising prices and shorter software support cycles have drawn some criticism.Despite this, OnePlus remains strong in markets like India and Europe, offering a mix of performance, style, and value.
+          </p>
+          <img src="Mobile.jpg" alt="Evolution" />
+        </div>
+      </section>
+
+
+      <!-- Varieties of model -->
+
+      <section id="more-products" class="section-heading">
+        <h3 class="section-heading">Models</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="Nord CE 3 Lite.jpeg" alt="One plus Nord CE 3 Lite" />
+            <h4>One Plus Nord CE 3 Lite</h4>
+            <p>
+                <!-- Processor: Qualcomm Snapdragon 695 5G                               -->
+                Battery: 5000mAh with 67W fast charging                
+                Camera: 108MP + 2MP + 2MP rear; 16MP front                
+                OS: OxygenOS 13.1 based on Android 13
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="Nord CE 3.jpeg"
+              alt="One Plus Nord CE 3 5G"
+            />
+            <h4>One Plus Nord CE 3 5G</h4>
+            <p>
+                <!-- Processor: Qualcomm Snapdragon 782G -->
+                Battery: 5000mAh with 80W fast charging
+                Camera: 50MP (Sony IMX890) + 8MP + 2MP rear; 16MP front
+                OS: OxygenOS 13.1 based on Android 13
+            </p>
+          </div>
+          <div class="tile">
+            <img src="Nord CE 4.jpeg" alt="One Plus Nord CE 4 5G" />
+            <h4>One Plus Nord CE 4 5G</h4>
+            <p>
+                <!-- Processor: Snapdragon 7 Gen 3 -->
+                Battery: 5500mAh with 100W fast charging
+                Camera: 50MP + 8MP rear; 16MP front
+                OS: OxygenOS 14 based on Android 14
+            </p>
+          </div>
+          <div class="tile">
+            <img src="Nord 4.webp" alt="One Plus Nord 4 5G" />
+            <h4>One Plus Nord 4 5G</h4>
+            <p>
+                <!-- Processor: Qualcomm Snapdragon 7+ Gen 2               -->
+                Battery: 5000mAh with 80W fast charging                
+                Camera: 50MP + 8MP rear; 16MP front                
+                OS: OxygenOS 13.1 based on Android 13
+            </p>
+          </div>
+          <div class="tile">
+            <img src="OP 13R.jpeg" alt="One Plus 13R" />
+            <h4>One Plus 13R</h4>
+            <p>
+                <!-- Processor: Snapdragon 8 Gen 3                 -->
+                Battery: 6000mAh with 100W fast charging                
+                Camera: Dual-lens rear camera system
+                OS: OxygenOS 14 based on Android 14
+            </p>
+          </div>
+          <div class="tile">
+            <img src="Nord CE 4 Lite.jpeg" alt="One Plus Nord CE 4 Lite" />
+            <h4>One Plus Nord CE 4 Lite</h4>
+            <p>
+                <!-- Processor: Qualcomm Snapdragon 695 5G               -->
+                Battery: 5000mAh with 67W fast charging                
+                Camera: 108MP + 2MP + 2MP rear; 16MP front
+                OS: OxygenOS 13.1 based on Android 13
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services section -->
+
+      <section id="our-services" class="section-heading">
+        <h3 class="section-heading">Our Services</h3>
+        <div class="sec-content-div flexible">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/uB2QqtpxMCM" title="OnePlus 13 | The Next Chapter of OnePlus Smartphones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+             
+      <section class="section-heading" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To buy or just to know more about us contact below :</h6>
+          <form
+            id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <input type="email" name="email" id="email" placeholder="Your Email Address" required/>
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+
+    <footer>
+      Created by
+      <a href="#">Somanadh Simhadri</a>
+    </footer>
+  </body>
+</html>
